@@ -10,6 +10,11 @@ namespace InterfaceExample
     {
         static void Main(string[] args)
         {
+            Dog internetAwareDog = new Dog();
+
+            InternetConnection conn = new InternetConnection();
+            conn.Connect(internetAwareDog);
+
         }
     }
 }
